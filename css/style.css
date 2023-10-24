@@ -166,6 +166,7 @@
     border-radius: 8px;
     cursor: pointer;
     transition: 3s all ease;
+
 }
 
 .btn-one:hover {
@@ -201,13 +202,53 @@
     font-family: 'Poppins', sans-serif;
     padding-top: 15px;
 }
-   /*new section start  */
-
+   /*new section start video */
+.play-video{
+    margin-top: 100px;
+}
 .banner-highlight{
     height: 100px;
     align-items: center;
-    background-color: #5433ff;
+    background-color:#5433ff;
     text-align: center;
     padding-top: 30px;
     color: #fff;
+    margin-top: 50px;
+}
+.video{
+    display: grid;
+    grid-template-columns: repeat( 2,1fr);
+    gap: 50px;
+    padding: 40px;
+    background-color: #00d5cebb;
+    
+}
+
+
+/* <<<<<<<<<<<<<<foter Saction start >>>>>>>>>>>>> */
+.foter{
+ padding-top: 200px;
+}
+.foter-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    padding-left: 540px;
+}
+.icon {
+    margin:20px;
+    font-size: 30px;
+}
+.last-text h5{
+    padding-top: 20px;
+    padding-left:510px;
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 50px;
+    
+    
+
 }
