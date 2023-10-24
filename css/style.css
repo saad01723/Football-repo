@@ -85,7 +85,7 @@
 }
 
 .banner-left h1 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-size: 64px;
     line-height: 80px;
     font-weight: 700;
@@ -202,3 +202,12 @@
     padding-top: 15px;
 }
    /*new section start  */
+
+.banner-highlight{
+    height: 100px;
+    align-items: center;
+    background-color: #5433ff;
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+}
