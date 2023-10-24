@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100%;
+    height: 100%;
+    background-color: #2D25A0;
+    padding-bottom: 113px;
+}
+
+.container {
+    width: 1160px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.main-manu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D25A0;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.manu-list {
+    display: flex;
+    list-style: none;
+}
+
+.manu-list li a {
+    text-decoration: none;
+    padding-right: 36px;
+    font-size: 16px;
+    font-weight: 50;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.manu-right {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 123px;
+    height: 44px;
+    background-color: #E02C6D;
+    cursor: pointer;
+}
+
+.manu-right i {
+    color: #FFF;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+.manu-right h3 {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+/*-----------------------------------
+    __...banner section start...__
+ ------------------------------------ */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 51px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+}
+
+.btn i{
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.banner-left h1 {
+    font-family: 'Poppins';
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.btn {
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: #fff;
+    border: none;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.banner-right {
+    position: relative;
+}
+
+.banner-right-image {
+    margin-right: 110px;
+}
+
+.banner-right-two {
+    position: absolute;
+    top: 18px;
+    right: 23px;
+    bottom: 0;
+}
+
+/*--------------------------
+      new saction start
+  ---------------------------*/
+#card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.card-one {
+    height: 485px;
+    width: 330px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 15px 15px;
+}
+
+.photo {
+    width: 300px;
+    height: 256px;
+}
+
+.text {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding-top: 16px;
+
+}
+
+.pragrap-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.btn-one {
+    width: 100px;
+    height: 45px;
+    background-color: #e02c6e;
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 3s all ease;
+}
+
+.btn-one:hover {
+    background: linear-gradient(to right, #5433ff, #20bdff, #a5fecb);
+    transition: 2s all ease;
+    color: black;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+                   Copa America start
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.copa-america{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 165px;
+}
+  .copa-america-left{
+    height: 309px;
+    width: 466px;
+}
+.text-top h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #0A0826;
+
+}
+.paragraph-top {
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(134, 122, 122);
+    font-family: 'Poppins', sans-serif;
+    padding-top: 15px;
+}
+   /*new section start  */
